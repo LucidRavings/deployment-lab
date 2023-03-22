@@ -1,0 +1,19 @@
+* {
+    font-family: sans-serif;
+    background-color: gray;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-right: 2px solid red;
+    border-bottom: 2px solid red;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+p {
+    width: 50%;
+}
