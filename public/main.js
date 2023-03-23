@@ -1,5 +1,8 @@
 const btn = document.querySelector('button')
 
-const clickHandler = () => alert('Yes you are!')
+const clickHandler = () => {
+    rollbar.info('Someone clicked the button')
+    alert('Yes you are!')
+}
 
 btn.addEventListener('click', clickHandler)
